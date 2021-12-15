@@ -37,9 +37,8 @@ print(calc(*num))
 
 
 # TODO 三、关键字参数(关键字参数允许你传入0个或任意个含参数名的参数,这些关键字参数在函数内部自动组装为一个dict(Map))
-
-def person(name, age,**kw):
-    print('name:', name, 'age:', age, 'other:', kw)
+def person(name, age, **kwargs):
+    print('name:', name, 'age:', age, 'other:', kwargs)
 
 
 print(person("Jack", 23, address="Beijing", cellphone='1865598019'))

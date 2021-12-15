@@ -1,4 +1,4 @@
-# TODO 条件判断
+# TODO 条件判断(Conditional  judgment)
 # 根据Python的缩进规则，如果if语句判断是True，就把缩进的两行print语句执行了，否则，什么也不做。
 
 # if <条件判断1>:
